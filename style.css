@@ -1,0 +1,62 @@
+.section-white {
+    background-image: url(Hubble.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 10px black;
+    margin: 10px;
+}
+
+.font {
+    color: blanchedalmond;
+    font-family: Garamond;
+    font-size: 17px;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.container {
+    width: 100%;
+}
+
+.nav-wrapper {
+    background: black;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid black 10px;
+}
+
+body {
+    border: solid black 10px;
+    margin: 10px;
+}
+
+.josa {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+iframe {
+    margin-top: 5em;
+    border: solid black 10px;
+    /* flex-direction: column; */
+}
+
+.vid-container {
+    display: flex;
+    justify-content: center;
+    /* height: auto; */
+    /* min-width: 300px; */
+}
+
+/* main div.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-direction: column;
+} */
